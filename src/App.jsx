@@ -6,13 +6,8 @@ function App() {
 
   return (
     <>
-     <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+    <img src="/photo_2026-01-17_15-35-41.jpg" alt="" height="200" onClick={() => setCount((count) => count + 1)} />
+    <p>песик взорван {count} раз</p>
     </>
   )
 }
